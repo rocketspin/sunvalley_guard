@@ -36,3 +36,14 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+# Android / iOS builds
+android/app/release/
+android/.gradle/
+ios/Pods/
+ios/build/
+
+# Additional local dev settings
+.vscode/
+.idea/
